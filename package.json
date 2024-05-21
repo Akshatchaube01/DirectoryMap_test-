@@ -1,0 +1,31 @@
+{
+  "name": "directorymap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.js",
+  "type":"module",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "directory",
+    "path"
+  ],
+  "author": "Akshat Chaube",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Akshatchaube01/DirectoryMap/issues"
+  },
+  "homepage": "https://github.com/Akshatchaube01/DirectoryMap",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "@types/node": "^20.12.12"
+  }
+}
